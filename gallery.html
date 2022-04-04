@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Gallery View</title>
+        <link rel="stylesheet" type="text/css" href="gallery.css"/>
+        <script src="gallery.js"></script> 
+    </head>
+    <body>
+        <div class="head">
+        <h1 align="center">Employee Details</h1>
+        
+            <button class="btn" onclick="window.location.href='http://127.0.0.1:5500/project/Gallery,Registration&login/reg.html#'">Logout</button>
+        
+        </div>
+        <div class="slidercontainer">  
+            <div class="show"></div> 
+            <div class="showSlide">  
+                <img  id="img1" src=" a.jpg"  alt="Karthik" width="650px" height="400px" class="image"/>  
+                <div class="caption">Name:Karthik</div>  
+               <p id="imgdt1"></p>
+               <p id="imgdt2"></p>
+            </div>  
+            <div class="showSlide">  
+                <img id="img2" src="bhuvan.jpg "  alt="Bhuvan" width="650px" height="400px" class="image"/>  
+                <div class="caption">Name:Bhuvan</div>  
+                <p id="img2dt1"></p>
+                <p id="img2dt2"></p>
+            </div>  
+      
+            <div class="showSlide">  
+                <img id="img3" src=" anjali.jpg"  alt="anjali" width="650px" height="400px" class="image"/>  
+                <div class="caption">Name:anjali</div>  
+                <p id="img3dt1"></p>
+                <p id="img3dt2"></p>
+            </div>  
+        </div> 
+            
+             <div class="left-side"> 
+            <a class="left" onclick="nextSlide(-1)">&#x25C0;</a>
+            </div>   
+            <div class="right-side">
+            <a class="right" onclick="nextSlide(1)">&#x25B6;</a>
+            </div>  
+        </div>
+        
+      
+    </body>   
+</html>
